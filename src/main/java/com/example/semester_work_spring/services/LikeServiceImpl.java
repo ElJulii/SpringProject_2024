@@ -1,6 +1,5 @@
 package com.example.semester_work_spring.services;
 
-
 import com.example.semester_work_spring.dto.LikeDto;
 import com.example.semester_work_spring.models.Like;
 import com.example.semester_work_spring.models.Recipe;
@@ -13,7 +12,6 @@ import org.springframework.stereotype.Component;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
 
 import static com.example.semester_work_spring.dto.LikeDto.likeList;
 

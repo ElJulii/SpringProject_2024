@@ -2,9 +2,7 @@ package com.example.semester_work_spring.controllers;
 
 import com.example.semester_work_spring.dto.RecipeDto;
 import com.example.semester_work_spring.dto.UserDto;
-import com.example.semester_work_spring.models.Role;
 import com.example.semester_work_spring.models.User;
-import com.example.semester_work_spring.repositories.RecipesRepository;
 import com.example.semester_work_spring.services.RecipeService;
 import com.example.semester_work_spring.services.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;

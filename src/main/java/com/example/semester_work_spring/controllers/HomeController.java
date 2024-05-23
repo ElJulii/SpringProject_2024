@@ -52,7 +52,6 @@ public class HomeController {
         }
         Pageable pageable = PageRequest.of(page - 1, 4);
         Page<Recipe> recipesPage;
-//        Page<Recipe> recipesPage = recipesRepository.findAllByOrderByIdDesc(pageable);
 
         if (search != null && !search.isEmpty()) {
             recipesPage = recipesRepository.findByNameRecipeContainingIgnoreCase(search, pageable);

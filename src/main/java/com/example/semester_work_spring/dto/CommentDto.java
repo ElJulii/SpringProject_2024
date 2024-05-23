@@ -1,7 +1,6 @@
 package com.example.semester_work_spring.dto;
 
 import com.example.semester_work_spring.models.Comment;
-import com.example.semester_work_spring.models.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

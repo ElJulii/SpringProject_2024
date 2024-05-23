@@ -35,7 +35,7 @@ public class SignUpServiceImpl implements SignUpService {
                 .phone(form.getPhone())
                 .role(Role.USER)
                 .build();
-//        smsService.sendSms(form.getPhone(), "Welcome " + form.getFirstname() + " to Ecuadorian Tasty Food, the best web side of Ecuador!");
+        smsService.sendSms(form.getPhone(), "Welcome " + form.getFirstname() + " to Ecuadorian Tasty Food, the best web side of Ecuador!");
         mailService.sendEmailForConfirm(user.getEmail(), user.getConfirmedCode());
         usersRepository.save(user);
 

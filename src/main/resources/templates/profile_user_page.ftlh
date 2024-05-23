@@ -116,6 +116,7 @@
             border: 1px solid #000080;
             border-radius: 5px;
             margin-left: 20%;
+            background-color: white;
         }
 
         .post img {
@@ -137,6 +138,7 @@
             border-radius: 5px;
             margin-bottom: 20px;
             margin-left: 25%;
+            background-color: lightyellow;
         }
     </style>
     <script>

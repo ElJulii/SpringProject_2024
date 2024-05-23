@@ -1,7 +1,6 @@
 package com.example.semester_work_spring.services;
 
 import com.example.semester_work_spring.dto.RecipeDto;
-import com.example.semester_work_spring.models.Recipe;
 import com.example.semester_work_spring.models.User;
 import org.springframework.web.multipart.MultipartFile;
 

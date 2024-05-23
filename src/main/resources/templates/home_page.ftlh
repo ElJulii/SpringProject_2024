@@ -130,6 +130,7 @@
             border-radius: 5px;
             margin-left: 20%;
             text-align: center;
+            background-color: white;
         }
 
         .post img {
